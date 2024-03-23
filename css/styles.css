@@ -1,0 +1,105 @@
+html {
+  min-height: 100%;
+}
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%); */
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/013/531/098/small/veterinary-clinic-with-doctor-and-sick-pets-free-vector.jpg');
+  min-height: 100%;
+  padding-bottom: 5rem;
+} 
+
+
+
+.titulo {
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  background: #5fc1e8;
+}
+.container {
+    background-color: white;
+}
+header {
+  margin-top: 3rem;
+}
+header h1 {
+  color: white;
+}
+.lista-citas .cita {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  
+}
+.lista-citas .cita:last-of-type {
+  border-bottom: 0;
+}
+
+.lista-citas .cita p {
+  margin:0;
+}
+.lista-citas .cita button {
+  margin-top: 1rem!important;
+}
+.lista-citas .cita span {
+  font-weight: bold;
+}
+textarea {
+    height: 200px!important;
+}
+
+svg {
+  width: 21px;
+}
+
+p {
+  margin-top: auto;
+  margin-bottom: 5px;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  background-color: #fff;
+}
+
+#citas {
+  max-height: 500px; /* Establece el alto máximo para el contenedor de citas */
+  overflow-y: auto; /* Agrega un desplazamiento vertical cuando el contenido excede el alto máximo */
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #5fc1e8;
+  border-color: #28B62C;
+}
+
+.btn-success {
+  border-color: #5fc1e8;
+}
+
+
+.mb-4, .my-4 {
+  margin-bottom: 1.5rem !important;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  /* Estilos para pantallas más pequeñas que 768px de ancho */
+  .titulo {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Estilos para pantallas más pequeñas que 576px de ancho */
+  .titulo {
+    font-size: 1.5rem;
+  }
+}
